@@ -1,0 +1,3 @@
+   public void checkout(String branch) {
+        if (branches.containsKey(branch)) {
+            currentBranch = branch;
